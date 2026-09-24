@@ -1300,12 +1300,6 @@
 		(uuid "6146f042-773f-403b-907e-b1a026005d7c")
 	)
 	(junction
-		(at 88.9 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b9968fc-6d87-4bc0-a662-954c40ecbd0f")
-	)
-	(junction
 		(at 49.53 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,16 +1390,6 @@
 			(type default)
 		)
 		(uuid "3629a24c-fbb9-4a52-b8cb-9fe1cfc927ba")
-	)
-	(wire
-		(pts
-			(xy 88.9 38.1) (xy 90.17 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd6258d-24dc-48cb-98fd-0bc0f20934bc")
 	)
 	(wire
 		(pts
@@ -2221,8 +2205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 106.68 36.8299 90)
+		(property "Value" "GND"
+			(at 106.68 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
